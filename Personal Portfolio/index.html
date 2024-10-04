@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Font -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container header-grid">
+            <!-- <div class="logo">
+                <h1>Mohd Riyas</h1>
+            </div> -->
+            <nav class="navmenu">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- <div class="social-icons">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+             <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div> -->
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+             <h1>Hello, I'm Muhammed Riyas</h1>
+                <p>Web Developer</p>
+                <a href="#contact" class="cta">Contact Me</a>
+            </div>
+
+            <div class="hero-image">
+                <img src="WhatsApp Image 2024-10-03 at 09.52.45_2deaf3fa.jpg" alt="Hero Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+     <div class="container about-grid hero-image">
+            <img src="WhatsApp Image 2024-10-03 at 09.52.45_cf58a60a.jpg" alt="About Image">
+            <div class="about-details">
+                <h2 style="text-align: center;">About Me</h2>
+            <p class="about-p">I'm a frontent Developer. I completed my Bachelor of Computer Applications (BCA) in April 2024.I am currently working as a intern at Bridgeon, where I received comprehensive training in web development.I gained skills in HTML, CSS, Bootstrap, JavaScript.</p>
+  <br><br>   
+                <ul>
+                    <li class="about-li"><strong>Name:</strong> Riyas</li>
+                    <li class="about-li"><strong>Location:</strong> India,Kerala</li>
+                    <li class="about-li"><strong>Email:</strong> Mohdriyas444@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section with Animation -->
+    <section id="skills" class="skills">
+        <div class="container">
+         <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item" data-skill="90">
+            
+                    <i class="fas fa-code"></i>
+                    <h3>HTML</h3>
+                    <P>I have good experience in HTML</P>
+                </div>
+                <div class="skill-item" data-skill="80">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>CSS</h3>
+                    <p>Bootstrap , Tailwind</p>
+                </div>
+                <div class="skill-item" data-skill="85">
+                    <i class="fas fa-database"></i>
+                    <h3>JS</h3>
+                    <p>React , Node , Express , MongoDB</p>
+                </div>
+                <div class="skill-item" data-skill="85">
+                    <i class="fas fa-database"></i>
+                    <h3>Git</h3>
+                    <p>Im familiar with Git</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 style="margin-bottom: 50px;">Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <a href="https://github.com/Mohdriyas444/Portfolio-Navbar.git" target="_blank">
+                 <img src="Screenshot 2024-10-04 143452.png" alt="Project 1">
+                </a>
+                    <div class="portfolio-info">
+                        <h3>Navigation Bar</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <a href="https://github.com/Mohdriyas444/portfolio-likedIn.git" target="_blank">
+                    <img src="Screenshot 2024-10-04 095343.png" alt="Project 2">
+                </a>
+                    <div class="portfolio-info">
+                        <h3>Linkedin Page</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <a href="https://github.com/Mohdriyas444/registration-form.git" target="_blank">
+                    <img src="Screenshot 2024-10-04 095522.png" alt="Project 3">
+                </a>
+                    <div class="portfolio-info">
+                        <h3>Registration Form</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="https://formsubmit.co/Mohdriyas444@gmail.com" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <input type="hidden" name="_cc" value="another@email.com">
+                <input type="hidden" name="_captcha" value="false">
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Riyas. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Animations -->
+    <script>
+        window.addEventListener('scroll', function() {
+            const skillItems = document.querySelectorAll('.skill-item');
+            skillItems.forEach(item => {
+                const rect = item.getBoundingClientRect();
+                if (rect.top < window.innerHeight) {
+                    item.classList.add('show');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
